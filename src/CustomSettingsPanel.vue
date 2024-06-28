@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, reactive, onMounted, defineProps, PropType } from "vue";
+import { reactive, defineProps } from "vue";
+import type { PropType } from "vue";
 import type { AdaptableApi } from "@adaptabletools/adaptable-vue3-aggrid";
 import { toRaw } from "vue";
 
@@ -61,7 +62,7 @@ const handleSubmit = (event: any) => {
       <input
         @input="
           (event) => {
-            handleChange('background', event.target.value);
+            handleChange('background', (event.target as any).value);
           }
         "
         :value="background"
@@ -73,7 +74,7 @@ const handleSubmit = (event: any) => {
       <input
         @input="
           (event) => {
-            handleChange('popup-background', event.target.value);
+            handleChange('popup-background', (event.target as any).value);
           }
         "
         :value="popupBackground"

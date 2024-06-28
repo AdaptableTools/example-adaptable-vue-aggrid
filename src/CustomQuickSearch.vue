@@ -16,8 +16,8 @@ const props = defineProps(["counter"]);
       style="padding: 6px 10px; marginleft: 5"
       @input="
         (event) => {
-          searchText = event.target.value;
-          emit('change', event.target.value);
+          searchText = (event.target as any).value;
+          emit('change', (event.target as any).value);
         }
       "
     />
