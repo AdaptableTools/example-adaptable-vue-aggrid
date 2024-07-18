@@ -86,7 +86,7 @@ const adaptableOptions: AdaptableOptions = {
             onClick: () => {
               (window as any)
                 ?.open(
-                  "https://github.com/AdaptableTools/example-adaptable-react-aggrid",
+                  "https://github.com/AdaptableTools/example-adaptable-vue-aggrid",
                   "_blank"
                 )
                 .focus();
