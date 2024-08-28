@@ -2,7 +2,7 @@
 
 This is a fairly basic example of how to get started with AdapTable Vue.
 
-AdapTable Vue is the Vue Framework version of AdapTable - the market-leading, low code AG Grid extension.
+AdapTable Vue is the Vue 3 Framework version of AdapTable - the market-leading, low code AG Grid extension.
 
 For full information on how to use AdapTable Vue see the [AdapTable Documentation](https://docs.adaptabletools.com/guide/vue-overview).
 
@@ -12,9 +12,9 @@ For full information on how to use AdapTable Vue see the [AdapTable Documentatio
 
 The demo is built using these key packages:
 
-- [Vue](https://github.com/vuejs) version 3.x
-- [AdapTable](https://docs.adaptabletools.com/) version 18.x
-- [AG Grid](https://www.ag-grid.com) version 31.x
+- [Vue 3](https://github.com/vuejs)
+- [AdapTable](https://docs.adaptabletools.com/) version 19
+- [AG Grid](https://www.ag-grid.com) version 32.1
 
 ## AdapTable Vue Custom Components
 
