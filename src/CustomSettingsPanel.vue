@@ -36,22 +36,6 @@ const handleChange = (
 
   root.style.setProperty(variableMap[variableName], color);
 };
-
-// ROW ADD
-
-const emptyDataItem = {
-  make: "2",
-  model: "",
-  price: 0,
-  date: new Date().toISOString().split("T")[0],
-};
-const dataItem = reactive({ ...emptyDataItem });
-const handleSubmit = (event: any) => {
-  event.preventDefault();
-  const rowData = { ...toRaw(dataItem), id: Math.random() * 1000 };
-  props.adaptableApi.gridApi.addGridData([rowData], { addIndex: 0 });
-  Object.assign(dataItem, emptyDataItem);
-};
 </script>
 
 <template>
@@ -81,28 +65,6 @@ const handleSubmit = (event: any) => {
         type="color"
       />
     </label>
-  </div>
-  <div>
-    <form @submit="handleSubmit">
-      <h3>Add data item</h3>
-      <label className="customSettingsPanel-label">
-        Make
-        <input v-model="dataItem.make" name="make" type="text" />
-      </label>
-      <label className="customSettingsPanel-label">
-        Model
-        <input v-model="dataItem.model" name="model" type="text" />
-      </label>
-      <label className="customSettingsPanel-label">
-        Price
-        <input v-model="dataItem.price" name="price" type="number" />
-      </label>
-      <label className="customSettingsPanel-label">
-        Date manufactured
-        <input v-model="dataItem.date" name="date" type="date" />
-      </label>
-      <button type="submit">Add New</button>
-    </form>
   </div>
 </template>
 
