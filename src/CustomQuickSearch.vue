@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const searchText = ref("");
+import { ref } from 'vue';
+const searchText = ref('');
 
 const emit = defineEmits({
   change: (value: string) => true,
 });
-const props = defineProps(["counter"]);
+const props = defineProps(['counter']);
 </script>
 
 <template>

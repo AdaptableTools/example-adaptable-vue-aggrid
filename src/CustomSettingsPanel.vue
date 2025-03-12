@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { reactive, defineProps } from "vue";
-import type { PropType } from "vue";
-import type { AdaptableApi } from "@adaptabletools/adaptable-vue3-aggrid";
-import { toRaw } from "vue";
+import { reactive, defineProps } from 'vue';
+import type { PropType } from 'vue';
+import type { AdaptableApi } from '@adaptabletools/adaptable-vue3-aggrid';
+import { toRaw } from 'vue';
 
 const props = defineProps({
   adaptableApi: {
@@ -13,23 +13,23 @@ const props = defineProps({
 
 // THEME EDITOR
 const variableMap = {
-  background: "--ab-cmp-adaptable-popup-topbar__background",
-  "popup-background": "--ab-cmp-adaptable-popup__background",
+  background: '--ab-cmp-adaptable-popup-topbar__background',
+  'popup-background': '--ab-cmp-adaptable-popup__background',
 };
-const root = document.querySelector(":root") as HTMLElement;
+const root = document.querySelector(':root') as HTMLElement;
 const computedStyle = getComputedStyle(root);
 const background = computedStyle
-  .getPropertyValue(variableMap["background"])
+  .getPropertyValue(variableMap['background'])
   .trim();
 const popupBackground = computedStyle
-  .getPropertyValue(variableMap["popup-background"])
+  .getPropertyValue(variableMap['popup-background'])
   .trim();
 
 const handleChange = (
-  variableName: "background" | "popup-background",
+  variableName: 'background' | 'popup-background',
   color: string
 ) => {
-  const root = document.querySelector(":root") as HTMLElement;
+  const root = document.querySelector(':root') as HTMLElement;
   if (!root) {
     return;
   }
