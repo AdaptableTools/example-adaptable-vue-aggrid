@@ -70,7 +70,7 @@ const adaptableOptions: AdaptableOptions = {
       {
         name: 'GithubRepo',
         title: 'Github Repo',
-        toolbarActions: ['Close'],
+        toolbarActions: ['close'],
         toolbarButtons: [
           {
             label: 'See Source Code',
@@ -99,7 +99,7 @@ const adaptableOptions: AdaptableOptions = {
       {
         name: 'CustomSettingsPanel',
         title: 'Custom Settings Panel',
-        toolbarActions: ['Close'],
+        toolbarActions: ['close'],
         toolbarButtons: [
           {
             label: 'Open Custom Settings Panel',
@@ -220,7 +220,7 @@ const adaptableOptions: AdaptableOptions = {
       });
     },
   },
-  predefinedConfig: {
+  initialState: {
     Dashboard: {
       Revision: CONFIG_REVISION,
       Tabs: [
