@@ -11,7 +11,7 @@ import type {
   CustomToolPanelButtonContext,
   ToolPanelButtonContext,
 } from '@adaptabletools/adaptable-vue3-aggrid';
-import type { GridOptions } from 'ag-grid-enterprise';
+import { type GridOptions, themeQuartz } from 'ag-grid-enterprise';
 import { defaultColDef, columnDefs } from './colDefs';
 import type { WebFramework } from './rowData';
 import { rowData } from './rowData';
@@ -27,7 +27,7 @@ const CONFIG_REVISION = 1;
 const counter = ref(0);
 
 const gridOptions: GridOptions<WebFramework> = {
-  theme: 'legacy',
+  theme: themeQuartz,
   defaultColDef,
   columnDefs,
   rowData,
@@ -332,7 +332,7 @@ const adaptableOptions: AdaptableOptions = {
       style="display: flex; flex-direction: column; height: calc(100vh - 50px)"
     >
       <AdaptableUI />
-      <AdaptableAgGridVue style="flex: 1" class="ag-theme-alpine" />
+      <AdaptableAgGridVue style="flex: 1" />
     </div>
   </AdaptableProvider>
 </template>
