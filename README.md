@@ -13,8 +13,8 @@ For full information on how to use AdapTable Vue see the [AdapTable Documentatio
 The demo is built using these key packages:
 
 - [Vue 3](https://github.com/vuejs)
-- [AdapTable](https://docs.adaptabletools.com/) version 20.1
-- [AG Grid](https://www.ag-grid.com) version 33.2
+- [AdapTable](https://docs.adaptabletools.com/) version 21
+- [AG Grid](https://www.ag-grid.com) version 34
 
 ## AdapTable Vue Custom Components
 
