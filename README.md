@@ -4,7 +4,7 @@ This is a fairly basic example of how to get started with AdapTable Vue.
 
 AdapTable Vue is the Vue 3 Framework version of AdapTable - the market-leading, low code AG Grid extension.
 
-For full information on how to use AdapTable Vue see the [AdapTable Documentation](https://docs.adaptabletools.com/guide/vue-overview).
+For full information on how to use AdapTable Vue see the [AdapTable Documentation](https://www.adaptabletools.com/docs/vue-overview).
 
 > For an absolute barebones example see the [Adaptable Vue Support Template](https://github.com/AdaptableTools/support-template-adaptable-vue-aggrid)
 
@@ -13,20 +13,20 @@ For full information on how to use AdapTable Vue see the [AdapTable Documentatio
 The demo is built using these key packages:
 
 - [Vue 3](https://github.com/vuejs)
-- [AdapTable](https://docs.adaptabletools.com/) version 21
+- [AdapTable](https://www.adaptabletools.com) version 21
 - [AG Grid](https://www.ag-grid.com) version 34
 
 ## AdapTable Vue Custom Components
 
-The main benefit of using AdapTable Vue is that it allows you to supply [custom components](https://docs.adaptabletools.com/guide/vue-custom-components) in AdapTable in a Vue-friendly way.
+The main benefit of using AdapTable Vue is that it allows you to supply [custom components](https://www.adaptabletools.com/docs/vue-custom-components) in AdapTable in a Vue-friendly way.
 
-> For full information on how to install and use AdapTable Vue see the [AdapTable Documentation](https://docs.adaptabletools.com/guide/vue-overview).
+> For full information on how to install and use AdapTable Vue see the [AdapTable Documentation](https://www.adaptabletools.com/docs/vue-overview).
 
 This demo showcases 3 Vue-specific features of AdapTable:
 
 ### Settings Panel
 
-The demo illustrates how to pass custom Vue components to the [Settings Panel](https://docs.adaptabletools.com/guide/ui-settings-panel):
+The demo illustrates how to pass custom Vue components to the [Settings Panel](https://www.adaptabletools.com/docs/ui-settings-panel):
 
 ```ts
 const adaptableOptions: AdaptableOptions = {
@@ -47,7 +47,7 @@ const adaptableOptions: AdaptableOptions = {
 
 ### Tool Panel
 
-The demo illustrates how to pass custom Vue components to the [Tool Panel](https://docs.adaptabletools.com/guide/ui-tool-panel):
+The demo illustrates how to pass custom Vue components to the [Tool Panel](https://www.adaptabletools.com/docs/ui-tool-panel):
 
 ```tsx
 const adaptableOptions: AdaptableOptions = {
@@ -76,7 +76,7 @@ const adaptableOptions: AdaptableOptions = {
 
 ### Custom Toolbar
 
-The demo illustrates how to pass custom Vue components to the [Dashboard Toolbar](https://docs.adaptabletools.com/guide/ui-dashboard):
+The demo illustrates how to pass custom Vue components to the [Dashboard Toolbar](https://www.adaptabletools.com/docs/ui-dashboard):
 
 ```tsx
 const adaptableOptions: AdaptableOptions = {
@@ -102,7 +102,7 @@ const adaptableOptions: AdaptableOptions = {
 };
 ```
 
-> For more information on how to use Vue Components in AdapTable see the [AdapTable Documentation](https://docs.adaptabletools.com/guide/vue-custom-components).
+> For more information on how to use Vue Components in AdapTable see the [AdapTable Documentation](https://www.adaptabletools.com/docs/vue-custom-components).
 
 ## Project Setup
 
@@ -119,23 +119,17 @@ npm run dev
 
 ## Licences
 
-An [AdapTable Licence](https://docs.adaptabletools.com/guide/buying-adaptable-licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
+An [AdapTable Licence](https://www.adaptabletools.com/buy/buying-adaptable-licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
 
 Licences can be purchased individually, for a team, for an organisation or for integration into software for onward sale.
 
 We can make a Trial Licence available for a short period of time to allow you to try out AdapTable for yourself.
 
-Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) or read the [Licence Documentation](https://docs.adaptabletools.com/guide/buying-adaptable-licensing) for more information.
-
-## Demo
-
-To see AdapTable Vue in action visit [Adaptable Documentation](https://docs.adaptabletools.com/) which contains a large number of small demos each showing a different feature, function or option in AdapTable Vue (using dummy data sets).
-
-Additionally, there is a page with larger 'recipe-type' Demos at the [Adaptable Tools website](https://www.adaptabletools.com/demos).
+Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) or read the [Licence Documentation](https://www.adaptabletools.com/buy/buying-adaptable-licensing) for more information.
 
 ## Help
 
-Developers can learn how to access AdapTable Vue programmatically at [AdapTable Documentation](https://docs.adaptabletools.com).
+Developers can learn how to access AdapTable Vue programmatically at [AdapTable Documentation](https://www.adaptabletools.com/docs).
 
 General information about Adaptable Tools is available at our [Website](http://www.adaptabletools.com)
 
